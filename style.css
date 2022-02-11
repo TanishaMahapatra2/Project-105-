@@ -1,0 +1,112 @@
+h3
+ {
+    background-color:rgb(219, 132, 183) ;
+    color:rgb(45, 39, 128);
+    border-color:rgb(0, 247, 255);
+ border-style:outset;
+ border-width:5px;
+ padding-bottom:5px;
+ padding-top:5px;
+ margin-left:7px;
+ margin-right:7px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body
+{
+    background: rgb(191,192,236);
+background: linear-gradient(90deg, rgba(191,192,236,1) 9%, rgba(111,222,222,1) 19%, rgba(183,111,222,1) 29%, rgba(252,176,69,1) 39%, rgba(252,69,125,1) 49%, rgba(252,176,69,1) 59%, rgba(183,111,222,1) 69%, rgba(111,222,222,1) 79%, rgba(197,199,236,1) 89%);
+}
+
+h1
+{
+ background-color:darkblue ;
+ color:rgb(247, 0, 255);
+ border-color:rgb(0, 255, 21);
+ border-style:outset;
+ border-width:5px;
+ padding-bottom:5px;
+ padding-top:5px;
+ margin-left:7px;
+ margin-right:7px;
+}
+
+#mother
+{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+width:460px;
+color:rgb(238, 255, 0);
+height:35px;
+font-size:20px;
+}
+
+#father
+{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    width:460px;
+    color:rgb(238, 255, 0);
+    height:35px;
+    font-size:20px;
+    }
+
+
+#sister
+{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    width:460px;
+    color:rgb(238, 255, 0);
+    height:35px;
+    font-size:20px;
+}
+
+label
+{
+font-size: 25px;
+color:blue;
+border-bottom-color:rgb(131, 1, 88);
+border-bottom-width:4px;
+border-bottom-style:ridge;
+}
+
+#capture_image
+{
+    background-color: rgb(0, 183, 255);
+    width:200px;
+    height:35px;
+    color:rgb(4, 15, 109);
+    font-size:17px;
+    border-color:rgb(112, 0, 43);
+    border-width:3px;
+    border-style:ridge;
+}
+
+#identify_image
+{
+    color: rgb(226, 137, 182);
+    width:200px;
+    height:35px;
+    background-color:rgb(109, 4, 100);
+    font-size:17px; 
+    border-color:rgb(0, 255, 255);
+    border-width:3px;
+    border-style:ridge;
+}
+
+#camera
+{
+    border-color:rgb(1, 68, 131);
+    border-width:6px;
+    border-style:double;
+    width:265px;
+    height:265;
+}
+
+#me
+{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    width:460px;
+    color:rgb(238, 255, 0);
+    height:35px;
+    font-size:20px;
+}

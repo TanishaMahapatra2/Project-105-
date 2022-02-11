@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+        
+        <title>
+      Image Recognizer
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+         <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"> </script> 
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"> </script>
+            <link rel="stylesheet" href="style.css">  
+       
+    </head>
+
+    <body>
+        <div class="container"></div>
+<center>
+        <h1> <b> Image Recognizer </b></h1>
+        <h3> Model is trained to identify the following things</h3>
+        <br>
+        <br>
+        <div class="members"></div>
+<button id="mother"> Mother </button>
+<br>
+<br>
+<button id="father"> Father </button>
+<br>
+<br>
+<button id="sister"> Sister </button>
+<br>
+<br>
+<button id="me"> Me </button>
+<br>
+<br>
+     <label> Webcam Live View </label>
+     <div id="camera"> </div>
+         <br>
+          <br>
+                           
+  <div id="result"> </div>
+            <br>
+            <button onclick="take_picture();" id="capture_image"> Capture Image </button>
+            
+      <br><br>
+      <button onclick="check();" id="identify_image"> Identify Image </button>
+      <br><br>
+    </center>
+    </body>
+
+</html>
